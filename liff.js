@@ -12,8 +12,20 @@ window.onload = function() {
   });
 
   document.getElementById('openwindowbutton').addEventListener('click', function() {
-    //liff.openWindow({url: 'https://google.com/'});
+    liff.openWindow({url: 'https://google.com/'});
+    liff.closeWindow();
+  });
+
+  document.getElementById('openwindowbutton2').addEventListener('click', function() {
     window.open('https://google.com/');
-    //liff.closeWindow();
+    liff.closeWindow();
+  });
+
+  document.getElementById('openwindowbutton2').addEventListener('click', function() {
+    liff.openWindow({url: 'https://google.com/'});
+  });
+
+  document.getElementById('openwindowbutton2').addEventListener('click', function() {
+    window.open('https://google.com/');
   });
 }
