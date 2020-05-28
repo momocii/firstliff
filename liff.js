@@ -12,7 +12,8 @@ window.onload = function() {
   });
 
   document.getElementById('openwindowbutton').addEventListener('click', function() {
-    liff.openWindow({url: 'https://google.com/'});
+    //liff.openWindow({url: 'https://google.com/'});
+    window.open('https://google.com/');
     liff.closeWindow();
   });
 }
