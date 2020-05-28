@@ -21,11 +21,11 @@ window.onload = function() {
     liff.closeWindow();
   });
 
-  document.getElementById('openwindowbutton2').addEventListener('click', function() {
+  document.getElementById('openwindowbutton3').addEventListener('click', function() {
     liff.openWindow({url: 'https://google.com/'});
   });
 
-  document.getElementById('openwindowbutton2').addEventListener('click', function() {
+  document.getElementById('openwindowbutton4').addEventListener('click', function() {
     window.open('https://google.com/');
   });
 }
