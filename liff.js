@@ -6,7 +6,7 @@ window.onload = function() {
     .then(() => {
       // Start to use liff's api
     })
-    .catch((err: LiffError) => {
+    .catch((err) => {
       // Error happens during initialization
       console.log(err.code, err.message);
   });
