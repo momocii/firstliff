@@ -29,6 +29,10 @@ window.onload = function() {
 
   document.getElementById('openwindowbutton4').addEventListener('click', function() {
     liff.closeWindow();
+  });
+
+  document.getElementById('openwindowbutton5').addEventListener('click', function() {
+    liff.closeWindow();
     liff.openWindow({url: 'https://google.com/'});
   });
   
