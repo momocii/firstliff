@@ -28,8 +28,8 @@ window.onload = function() {
   });
 
   document.getElementById('openwindowbutton4').addEventListener('click', function() {
-    window.open('https://google.com/');
-    window.opener.close();
+    liff.closeWindow();
+    liff.openWindow({url: 'https://google.com/'});
   });
   
 }
