@@ -42,7 +42,7 @@ window.onload = function() {
       window.open('https://google.com/');
       return;
     }
-    window.close();
+    liff.closeWindow();
   });
   
 }
