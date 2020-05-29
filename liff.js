@@ -38,7 +38,8 @@ window.onload = function() {
     //window.close();
     //liff.openWindow({url: 'https://google.com/'});
     
-    window.unload = function() {
+    //window.unload = function() {
+    window.onbeforeunload = function() {
       window.open('https://google.com/');
       return;
     }
