@@ -4,7 +4,9 @@ window.onload = function() {
       liffId: "1654285523-4EB1Y6X0" // use own liffId
     })
     .then(() => {
-      // Start to use liff's api
+      document.getElementById('deviceOS').textContent = liff.getOS();
+      document.getElementById('sdkVersion').textContent = liff.getVersion();
+      document.getElementById('lineVersion').textContent = liff.getLineVersion();
     })
     .catch((err) => {
       // Error happens during initialization
