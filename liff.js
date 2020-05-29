@@ -39,7 +39,7 @@ window.onload = function() {
     //liff.openWindow({url: 'https://google.com/'});
     
     window.unload = function() {
-      liff.openWindow({url: 'https://google.com/'});
+      window.open('https://google.com/');
       return;
     }
     window.close();
