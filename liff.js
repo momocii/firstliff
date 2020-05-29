@@ -32,7 +32,8 @@ window.onload = function() {
   });
 
   document.getElementById('openwindowbutton5').addEventListener('click', function() {
-    liff.closeWindow();
+    //liff.closeWindow();
+    window.close();
     liff.openWindow({url: 'https://google.com/'});
   });
   
