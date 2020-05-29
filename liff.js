@@ -33,8 +33,16 @@ window.onload = function() {
 
   document.getElementById('openwindowbutton5').addEventListener('click', function() {
     //liff.closeWindow();
+    //liff.openWindow({url: 'https://google.com/'});
+    
+    //window.close();
+    //liff.openWindow({url: 'https://google.com/'});
+    
+    window.unload = function() {
+      liff.openWindow({url: 'https://google.com/'});
+      return;
+    }
     window.close();
-    liff.openWindow({url: 'https://google.com/'});
   });
   
 }
